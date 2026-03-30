@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import '../styles/home.scss'
+import Carousel from '../components/carousel.jsx'
 
 function Home(){
   return(
@@ -15,6 +16,8 @@ function Home(){
     </header>
 
     <main>
+
+      <Carousel />
  
     </main>
 

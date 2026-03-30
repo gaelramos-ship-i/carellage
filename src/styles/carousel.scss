@@ -1,0 +1,14 @@
+@import'./variables';
+
+.section-carousel{
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: $color-title;
+    img{
+        border-radius: 20px;
+        aspect-ratio: 1/1;
+    }
+}
