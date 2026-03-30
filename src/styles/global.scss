@@ -1,0 +1,23 @@
+@import'./variables';
+
+*{
+    margin: 0;
+    font-family: $font-family;
+}
+
+body{
+    background-color: $primary-color;
+}
+
+header{
+    background: $header-color;
+}
+
+.section-header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+@import'./variables';
+
+.navbar{
+    display: flex;
+    gap: 40px;
+    margin-right: 80px;
+    a{
+        text-decoration: none;
+        font-weight: 700;
+        color: $primary-color;
+        transition: 0.3s ease-out;
+    }
+    a:hover{
+        color: $hover-color;
+        transition: 0.3s ease-out;
+    }
+}
