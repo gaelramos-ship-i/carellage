@@ -1,0 +1,12 @@
+@import'./variables';
+
+footer{
+    max-width: 1440px;
+    margin: auto;
+    background: $back-color;
+    color: $primary-color;
+    padding: 10px 0;
+    p{
+        text-align: center;
+    }
+}
