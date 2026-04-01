@@ -1,1 +1,18 @@
 @import'./global.scss';
+
+.section-header{
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        p{
+            margin-left: 10px;
+            color: #f3e8d2;
+            font-size: 24px;
+            font-weight: 600;
+            span{
+                color: $color-title;
+            }
+        }
+    }
+}

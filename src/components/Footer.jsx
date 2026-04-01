@@ -1,7 +1,9 @@
 import '../styles/footer.scss';
 
 const Footer = () => (
-    <p>© 2026 Copyrigth - Anthony Ramos</p>
+    <div>
+        <p>© 2026 Copyrigth - Anthony Ramos</p>
+    </div>
 )
 
 export default Footer

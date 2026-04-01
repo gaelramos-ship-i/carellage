@@ -9,7 +9,8 @@ function Home(){
     <header>
       <div className='section-header'>
         <a href="/">
-          <img src="images\logo.png" alt="logo" width={'100px'}/>
+          <img src="images\logo.png" alt="logo" width={'80px'}/>
+          <p>Artisan <span>Carreleur</span></p>
         </a>
         <Navbar />
       </div>
