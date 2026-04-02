@@ -9,12 +9,16 @@ function Contact() {
     const [nom, setNom] = useState("");
     const [telephone, setTelephone] = useState("");
     const [email, setEmail] = useState("");
+    const [type, setType] = useState("");
+    const [projet, setProjet] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Nom :", nom);
         console.log("Téléphone :", telephone);
         console.log("Email :", email);
+        console.log("Type de projet :", type);
+        console.log("Projet :", projet);
     };
 
     return (
@@ -64,6 +68,26 @@ function Contact() {
                             placeholder="Saisir votre email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
+                        />
+                    </div>
+                    <div>
+                        <select
+                            value={type}
+                            onChange={(e) => setType(e.target.value)}
+                        >
+                            <option value="" disabled>Type de projet</option>
+                            <option value="Carrelage intérieur">Carrelage intérieur</option>
+                            <option value="Terrase / extérieur">Terrase / extérieur</option>
+                            <option value="Rénovation">Rénovation</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea
+                            type="text"
+                            placeholder="Saisir votre projet"
+                            value={projet}
+                            onChange={(e) => setProjet(e.target.value)}
                         />
                     </div>
                     <button type="submit">Envoyer</button>
