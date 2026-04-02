@@ -1,0 +1,34 @@
+@import'./variables';
+
+.section-contact{
+    display: flex;
+    background: $color-back;
+    padding: 100px;
+}
+
+.contact{
+    width: 50%;
+    hr{
+        width: 42%;
+    }
+    article{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.formulaire{
+    width: 50%;
+    input, button{
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    button:hover{
+        opacity: 0.7;
+        color: $color-title;
+        border: solid 1px $hover-color;
+    }
+}

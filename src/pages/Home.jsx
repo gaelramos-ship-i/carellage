@@ -2,6 +2,8 @@ import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import '../styles/home.scss'
 import Carousel from '../components/carousel.jsx'
+import Banniere from '../components/banniere.jsx'
+import Contact from './Contact.jsx'
 
 function Home(){
   return(
@@ -19,6 +21,8 @@ function Home(){
     <main>
 
       <Carousel />
+      <Banniere />
+      <Contact />
  
     </main>
 
