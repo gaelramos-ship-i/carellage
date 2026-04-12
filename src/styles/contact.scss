@@ -1,9 +1,14 @@
 @import'./variables';
 
 .section-contact{
-    display: flex;
     background: $color-back;
-    padding: 100px;
+}
+
+.maxWidth{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    padding: 100px 20px;
 }
 
 .contact{
@@ -29,7 +34,7 @@
 }
 
 .formulaire{
-    width: 50%;
+    width: 48%;
     input, textarea, select{
         width: 100%;
         border-radius: 10px;

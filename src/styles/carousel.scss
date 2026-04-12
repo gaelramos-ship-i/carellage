@@ -6,11 +6,55 @@
     text-align: center;
     padding: 40px 0;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     color: $color-title;
     img{
         border-radius: 20px;
         aspect-ratio: 1/1;
+    }
+    .text{
+        text-align: left;
+        padding: 40px;
+        color: $back-color;
+        font-size: 20px;
+        h1{
+            font-size: 18px;
+            color: $color-title;
+        }
+        h2{
+            font-size: 40px;
+            color: $color-title;
+        }
+        span{
+            color: $back-color;
+        }
+        #contact{
+            color: $back-color;
+            border: solid 1px $back-color;
+            border-radius: 10px;
+            padding: 10px;
+            width: 20%;
+            transition: 0.3s ease-out;
+            margin-top: 20px;
+        }
+        #contact:hover{
+            opacity: 0.7;
+            color: $color-title;
+            border: solid 1px $color-title;
+            transition: 0.3s ease-out;
+        }
+    }
+    .carousel-img{
+        width: 100%;
+        margin: auto;
+    }
+    .controls{
+        button{
+            border-radius: 20px;
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: $back-color;
+        }
     }
 }
