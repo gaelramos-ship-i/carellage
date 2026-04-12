@@ -3,3 +3,17 @@
 .section-header a{
     display: flex;
 }
+
+.section-header svg{
+    display: none;
+    color: $primary-color;
+}
+
+@media screen and (max-width:1024px) {
+    .section-header svg{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+}

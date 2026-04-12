@@ -41,7 +41,7 @@ function Contact() {
                         </article>
                         <article>
                             <GiPositionMarker />
-                            <p>VAR et ses alentours</p>
+                            <p>Brignoles et ses alentours</p>
                         </article>
                     </div>
                 </div>

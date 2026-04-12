@@ -4,6 +4,7 @@ import '../styles/home.scss'
 import Carousel from '../components/carousel.jsx'
 import Banniere from '../components/banniere.jsx'
 import Contact from './Contact.jsx'
+import { CiMenuBurger } from "react-icons/ci"
 
 function Home(){
   return(
@@ -14,6 +15,7 @@ function Home(){
           <img src="images\logo.png" alt="logo" width={'80px'}/>
         </a>
         <Navbar />
+        <CiMenuBurger />
       </div>
     </header>
 

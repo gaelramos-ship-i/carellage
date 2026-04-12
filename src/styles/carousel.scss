@@ -58,3 +58,23 @@
         }
     }
 }
+
+@media screen and (max-width:1024px) {
+    .section-carousel{
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px){
+    .section-carousel{
+        .text{
+            padding: 10px;
+            #contact{
+                width: 60%;
+            }
+        }
+        .carousel-img{
+            margin-top: 10%;
+        }
+    } 
+}

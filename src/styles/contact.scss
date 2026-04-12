@@ -60,3 +60,28 @@
         transition: 0.3s ease-out;
     }
 }
+
+@media screen and (max-width:1024px) {
+    .formulaire{
+        input, select, textarea{
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .maxWidth{
+        display: block;
+    }
+    .contact{
+        width: 100%;
+    }
+
+    .formulaire {
+        width: 100%;
+        margin-top: 10%;
+        button{
+            width: 30%;
+        }
+    }
+}
